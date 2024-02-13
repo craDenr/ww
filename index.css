@@ -106,7 +106,7 @@
     z-index: 0;
   }
   .flap > .envelope > .letter {
-    bottom: 100px;
+    bottom: 205px;
     transform: scale(1.5);
     transition-delay: 1s;
   }
@@ -121,12 +121,12 @@
     transform: translateX(-50%);
     /* color: var(--txt-color); */
     color: #fff;
-    font-size: 11px;
+    font-size: 19px;
     font-weight: lighter;
   }
   .envelope-wrapper > .click-me {
     position: absolute;
-    top: 65%; /* Adjust the distance from the top as needed */
+    top: 60%; /* Adjust the distance from the top as needed */
     left: 50%; /* Center the text horizontally */
     transform: translateX(-50%); /* Center the text horizontally */
     color: var(--heart-color); /* Match the heart color */
